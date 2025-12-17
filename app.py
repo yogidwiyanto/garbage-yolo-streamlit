@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 import numpy as np
 from ultralytics import YOLO
 from PIL import Image
@@ -275,4 +274,5 @@ if uploaded_file:
         )
 else:
     st.info("Silakan upload gambar untuk memulai deteksi.")
+
 
